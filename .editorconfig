@@ -1,0 +1,50 @@
+# EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs
+# For more information about the properties used in this file, please see https://editorconfig.org/
+
+# Top-most EditorConfig file
+root = true
+
+# All files
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false
+
+# JSON files
+[*.json]
+indent_size = 4
+
+# JavaScript files
+[*.js]
+indent_size = 4
+
+# JSX files
+[*.jsx]
+indent_size = 4
+
+# TypeScript files
+[*.ts]
+indent_size = 4
+
+# TSX files
+[*.tsx]
+indent_size = 4
+
+# XML files
+[*.xml]
+indent_size = 4
+
+# YAML files
+[*.yml]
+indent_size = 2
+
+# Python files
+[*.py]
+indent_size = 4
