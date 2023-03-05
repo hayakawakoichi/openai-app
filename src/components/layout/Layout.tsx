@@ -10,7 +10,7 @@ export const Layout: FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <Box sx={{ padding: 1, background: '#f2f2f2' }}>
-        <Typography>Header</Typography>
+        <Typography variant="h1">OpenAI Sample App</Typography>
       </Box>
       <Container maxWidth="lg" sx={{ minHeight: '100vh' }}>
         <>{children}</>
